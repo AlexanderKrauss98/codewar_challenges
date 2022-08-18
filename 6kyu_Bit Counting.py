@@ -5,7 +5,7 @@ def count_bits(n):
     x = [int(a) for a in str(temp)]   #bring bin code into a list    
     return (x.count(1))   #counting 1 from list
   
-#-------------------------------------Testfile from Taskgiver----------------------
+#-------------------------------------Testfile Client----------------------
 
 import codewars_test as test
 from solution import count_bits
