@@ -5,7 +5,7 @@ import re
 def solution(s):
     return re.sub( '(?=[A-Z])',' ', s )
 
-#------------------------------------------------------------Testfile from Taskgiver------------------------------------------
+#------------------------------------------------------------Testfile Client------------------------------------------
 
 test.assert_equals(solution("helloWorld"), "hello World")
 test.assert_equals(solution("camelCase"), "camel Case")
