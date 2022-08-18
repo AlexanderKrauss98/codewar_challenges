@@ -14,7 +14,7 @@ def likes(names):
         other = count - 2
         return f"{names[0]}, {names[1]} and {other} others like this"
  
-#-----------------------------------------------Testfile from Taskgiver---------------------
+#-----------------------------------------------Testfile Client-----------------------------
  
 import codewars_test as test
 from solution import likes
