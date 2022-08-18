@@ -1,25 +1,14 @@
-#-------------------------------------------------------------------------Task-------------------------------------------------------------------
-#Write a function that takes in a string of one or more words, and returns the same string, 
-#but with all five or more letter words reversed (Just like the name of this Kata). 
-#Strings passed in will consist of only letters and spaces. Spaces will be included only when more than one word is present.
-
-#Examples:
-
-#spinWords( "Hey fellow warriors" ) => returns "Hey wollef sroirraw" 
-#spinWords( "This is a test") => returns "This is a test" 
-#spinWords( "This is another test" )=> returns "This is rehtona test"
-
 #--------------------------------------------------------------------------------My Solition--------------------------------------------------------------
 
 def spin_words(sentence):
-    splitted_words = sentence.split()
-    output = []
-    for i in splitted_words:
-        character = list(i)
-        if len(character) >= 5:
-            character.reverse()
-        output.append(''.join(character))
-    return ' ' .join(output)
+    splitted_words = sentence.split() #Create list of every Word in sentence
+    output = []  
+    for i in splitted_words: #for every Word in sentence
+        character = list(i) #create list of character
+        if len(character) >= 5: #if the word has more then 5 character...
+            character.reverse() #reverse it 
+        output.append(''.join(character)) #anyway give it back to output 
+    return ' ' .join(output) #return sentence 
   
 #---------------------------------------------------------------------------Testfile from Creator----------------------------------------------------------------
 
