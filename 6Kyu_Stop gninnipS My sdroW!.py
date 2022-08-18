@@ -10,7 +10,7 @@ def spin_words(sentence):
         output.append(''.join(character))
     return ' ' .join(output)
   
-#-----------------------------------------------------------Testfile from Task giver-----------------------------
+#-----------------------------------------------------------Testcase Client-----------------------------
   
 @test.describe("Stop gninnipS My sdroW!")
 def fixed_tests():
