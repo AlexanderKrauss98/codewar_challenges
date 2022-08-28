@@ -1,4 +1,4 @@
-# codewar_challenges
+# codewars_challenges
 In this repository i'll show you my solutions for the challenges of codewars.com 
 
 For every Solution exist also an description with the task. The testfiles are implemented into the Solution_files wich is given by the creator of the Task. 
